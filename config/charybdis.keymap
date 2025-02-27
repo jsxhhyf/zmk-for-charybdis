@@ -53,21 +53,21 @@
 
         layer_1 {
             bindings = <
-&kp F1          &kp F2      &kp F3        &kp F4     &kp F5        &kp F6               &kp F7           &kp F8        &kp F9            &kp F10            &kp F11  &kp F12
-&kp CAPS        &bt BT_CLR  &bt BT_SEL 1  &none      &none         &none                &none            &none         &kp UP            &none              &none    &none
-&kp LCTRL       &none       &none         &none      &none         &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &kp LEFT      &kp DOWN          &kp RIGHT          &none    &none
-&kp LEFT_SHIFT  &none       &none         &none      &none         &mkp MCLK            &none            &bt BT_SEL 0  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none    &kp EQUAL
-                                          &kp SPACE  &kp LEFT_ALT  &kp LEFT_GUI         &none            &kp SPACE
-                                                     &mkp MB1      &mkp MB2             &kp ENTER
+&kp F1          &kp F2      &kp F3        &kp F4     &kp F5        &kp F6          &kp F7         &kp F8        &kp F9            &kp F10            &kp F11   &kp F12
+&kp CAPS        &bt BT_CLR  &bt BT_SEL 1  &none      &none         &none           &none          &none         &kp UP            &none              &none     &none
+&kp LCTRL       &none       &none         &none      &none         &none           &mkp MCLK      &kp LEFT      &kp DOWN          &kp RIGHT          &none     &none
+&kp LEFT_SHIFT  &none       &none         &none      &none         &mkp MCLK       &mkp MB1       &bt BT_SEL 0  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp MB2  &kp EQUAL
+                                          &kp SPACE  &kp LEFT_ALT  &kp LEFT_GUI    &kp RIGHT_GUI  &kp SPACE
+                                                     &mkp MB1      &mkp MB2        &kp ENTER
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans           &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans           &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans           &trans  &trans  &kp GRAVE
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
