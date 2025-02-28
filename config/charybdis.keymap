@@ -64,10 +64,10 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans           &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans           &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans           &trans  &trans  &kp GRAVE
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans           &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &kp UP           &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT           &kp DOWN         &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans     &trans  &kp GRAVE
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
