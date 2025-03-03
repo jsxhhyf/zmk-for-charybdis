@@ -64,7 +64,7 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans             &trans           &trans     &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans             &trans           &trans     &trans            &kp DELETE
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans             &kp HOME         &trans     &kp LC(UP_ARROW)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN           &kp UP           &kp RIGHT  &trans            &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &mkp MB4  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &mkp MB5   &trans            &kp GRAVE
